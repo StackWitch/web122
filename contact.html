@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sadie Coleman" />
+    <meta name="description" content="Contact page for ELIEC nonprofit organization" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>ELIEC | Contact</title>
+</head>
+
+<body>
+    <header class="site-header container">
+        <a href="index.html" class="logo-link">
+            <img src="images/icon-logo.jpg" alt="ELIEC Logo" class="logo" />
+        </a>
+        <h3>El-Shaddai International Church</h3>
+        <button class="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html" class="active" aria-current="page">Events</a></li>
+                <li><a href="donation.html">Give</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Process.html">Process</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="contact-section">
+  <div class="contact-wrapper">
+    <img src="images/contact-image.jpg" alt="Pastor" class="contact-image" />
+
+    <form action="#" method="POST" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+
+  <div class="contact-details">
+    <p><strong>Email:</strong> elshaddaichurchks@gmail.com</p>
+    <p><strong>Phone:</strong> (913) 489-9796</p>
+    <p><strong>Address:</strong> 13622 W. 62nd St. Shawnee, KS 66216</p>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+        <nav class="footer-nav container">
+            <a href="index.html">Home</a>
+            <a href="accessibility.html">Accessibility</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+        </nav>
+        <p>&copy; 2025 ELIEC. All rights reserved.</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

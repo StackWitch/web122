@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sadie Coleman" />
+  <meta name="description" content="Donation page for ELIEC nonprofit organization" />
+  <link rel="stylesheet" href="css/donation.css" />
+  <title>Support Our Mission | ELIEC</title>
+</head>
+
+<body>
+      <header class="site-header container">
+        <a href="index.html" class="logo-link">
+            <img src="images/icon-logo.jpg" alt="ELIEC Logo" class="logo" />
+        </a>
+        <h3>El-Shaddai International Church</h3>
+        <button class="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html" class="active" aria-current="page">Events</a></li>
+                <li><a href="donation.html">Give</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Process.html">Process</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h1>Support Our Mission</h1>
+    </section>
+    <div class="donation-image">
+      <img src="images/donation-image.jpeg" alt="Support community giving" />
+    </div>
+    <section class="donation-page">
+      <header class="donation-header">
+        <p>Select an amount to give toward our community outreach.</p>
+      </header>
+
+      <form class="donation-form">
+        <fieldset class="donation-amounts">
+          <legend>Choose Amount</legend>
+
+          <label for="amt25">
+            <input type="radio" id="amt25" name="amount" value="25" />
+            <span>$25</span>
+          </label>
+
+          <label for="amt50">
+            <input type="radio" id="amt50" name="amount" value="50" />
+            <span>$50</span>
+          </label>
+
+          <label for="amt100">
+            <input type="radio" id="amt100" name="amount" value="100" />
+            <span>$100</span>
+          </label>
+
+          <label class="custom" for="custom_amount">
+            <input type="radio" name="amount" value="custom" />
+            <input type="text" id="custom_amount" name="custom_amount" placeholder="Other" />
+          </label>
+        </fieldset>
+
+        <button type="submit" class="btn donate-btn">Continue</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="footer-nav container">
+      <a href="index.html">Home</a>
+      <a href="accessibility.html">Accessibility</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+    <p>&copy; 2025 ELIEC. All rights reserved.</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+
+</html>

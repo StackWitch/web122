@@ -1,0 +1,48 @@
+@import url('common.css');
+
+.events-list {
+  margin-top: 2rem;
+}
+
+.event {
+  margin-bottom: 2rem;
+}
+
+.event img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.event.smaller-image img {
+  max-width: 30%; 
+  display: block;
+  margin: 1rem auto; 
+}
+.events-row {
+  display: flex;
+  gap: 2rem;            
+  justify-content: center; 
+  flex-wrap: wrap;       
+}
+
+.events-row .event {
+  flex: 1 1 45%;         
+  box-sizing: border-box; 
+}
+
+.event.smaller-image img {
+  max-width: 100%;  
+  height: auto;
+  display: block;
+  margin: 1rem 0;  
+}
+@media (max-width: 767px) {
+  .events-row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .events-row .event {
+    flex: 1 1 100%;
+  }
+}

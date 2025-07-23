@@ -1,0 +1,21 @@
+@import url('common.css');
+
+.donation-page {
+  margin-top: 2rem;
+}
+
+.donation-form {
+  margin-bottom: 2rem;
+}
+
+.donation-amounts label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.donation-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
